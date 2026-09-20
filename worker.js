@@ -1,5 +1,6 @@
+
 export default {
   async fetch(request, env) {
-    return new Response("My Agent is running.");
-  }
+    return new Response("My Agent is working!");
+  },
 };
